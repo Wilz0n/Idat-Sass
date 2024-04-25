@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Styles.css">
-    <title>Document</title>
+    <title>Ejemplo de Nomenclaturas BEM y SUITCSS</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <header><h1>Pagina principal</h1></header>
-        <ul>
-           <a href="#Home">Home</a>
-           <a href="#Shop">Shop</a>
-           <a href="#Acount">Acount</a>
-           <a href="#Info">Info</a>
-        </ul>
-    </nav>
+    <div class="card card--large">
+        <div class="card__header">
+            <h2 class="card__title">Título de la Tarjeta</h2>
+        </div>
+        <div class="card__content">
+            <p class="card__text">Contenido de la tarjeta.</p>
+        </div>
+        <div class="card__footer">
+            <button class="btn btn--primary">Botón de Acción</button>
+        </div>
+    </div>
 </body>
 </html>
