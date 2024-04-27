@@ -115,4 +115,10 @@ p {
 }
 .footer-pag input {
   margin-top: 13px;
+}
+.footer-pag ul {
+  text-align: left;
+  position: relative;
+  position: relative;
+  left: -2.5rem;
 }/*# sourceMappingURL=Styles.css.map */
