@@ -3,21 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo de Nomenclaturas BEM y SUITCSS</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Nomenclaturas BEM y SUITCSS</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./Styles.css">
 </head>
 <body>
-    <div class="card card--large">
-        <div class="card__header">
-            <h2 class="card__title">Título de la Tarjeta</h2>
+    <section>
+        <div class="wrapper">
+            <form action="">
+                <h1>Login</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    <i class='bx bxs-lock-alt' style='color:#ffffff' ></i>
+                </div>
+
+                <div class="remember-forgot">
+                    <label for=""><input type="checkbox">Remmember me</label>
+                    <a href="#">Forgot Password</a>
+                </div>
+
+                <button type="submit" class="btn">Login</button>
+
+                <div class="register-link">
+                    <p>Don't have an account? <a href="#">Register</a></p>
+                </div>
+            </form>
         </div>
-        <div class="card__content">
-            <p class="card__text">Contenido de la tarjeta.</p>
-        </div>
-        <div class="card__footer">
-            <button class="btn btn--primary">Botón de Acción</button>
-        </div>
-    </div>
+    </section>
 </body>
 </html>
-prueba v1
