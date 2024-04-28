@@ -28,11 +28,23 @@ p {
 }
 .Texto .icons-top {
   padding: 0rem;
-  border: 1px solid;
   margin: 2rem;
   position: absolute;
   top: 6rem;
   right: 13rem;
+}
+.Texto .icons-top img[src*="bx-left-arrow-alt.svg"] {
+  border: 2px solid black;
+  border-radius: 3rem;
+  margin: 1rem;
+}
+.Texto .icons-top img[src*="bx-right-arrow-alt.svg"] {
+  border: 2px solid black;
+  border-radius: 3rem;
+  background: #e95906;
+  position: relative;
+  left: 0.4rem;
+  bottom: 1rem;
 }
 
 /*contenerdor*/
